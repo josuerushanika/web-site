@@ -24,3 +24,19 @@
   a {
     text-decoration: none;
   }
+
+  header .cta h1 {
+    font-family: "Alegreya";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+
+  header .cta .demo-btn {
+    border-radius: 10px;
+    background: var(--red-color) ;
+    color:#ffffff;
+    padding: 10px 32px;
+  }

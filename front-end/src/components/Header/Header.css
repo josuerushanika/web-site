@@ -21,4 +21,22 @@ header .cta {
     border-color: #ffffff;
     backdrop-filter: blur(25px);
     border-radius: 20px 20px 0px 0px;
+    padding: 50px 40px;
+}
+
+header .cta .course-name {
+    font-weight: 800;
+    font-size: 16px;
+    color:#ffffff;
+    position: relative;
+}
+
+header .cta .course-name::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background: var(--red-color);
+    left: 0;
+    bottom: -10px;
 }
