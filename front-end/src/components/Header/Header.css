@@ -1,0 +1,6 @@
+header {
+    min-height: 100vh;
+    background: url('../../assets/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
