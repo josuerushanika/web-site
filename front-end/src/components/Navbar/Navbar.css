@@ -1,0 +1,9 @@
+nav {
+    position: fixed;
+    width: 1024px;
+    top: 24px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+}
