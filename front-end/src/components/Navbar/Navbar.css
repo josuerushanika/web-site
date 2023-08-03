@@ -19,12 +19,13 @@ nav ul {
     gap: 50px;
 }
 
-nav ul li a {
+nav ul li a,
+a.logo {
     color: #ffff;
     font-weight: 800;
     font-size: 16px;
 }
 
-a .logo {
-    
+a.logo .red {
+    color: #cc3e3e;
 }
