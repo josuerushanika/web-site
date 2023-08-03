@@ -9,6 +9,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     z-index: 300;
+    padding: 16px 32px;
 }
 
 nav ul {
@@ -22,4 +23,8 @@ nav ul li a {
     color: #ffff;
     font-weight: 800;
     font-size: 16px;
+}
+
+a .logo {
+    
 }
