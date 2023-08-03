@@ -6,4 +6,20 @@ nav {
     backdrop-filter: blur(20px);
     border-radius: 0px 0px 10px 10px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 300;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+
+nav ul li a {
+    color: #ffff;
+    font-weight: 800;
+    font-size: 16px;
 }
