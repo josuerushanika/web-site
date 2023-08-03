@@ -4,7 +4,7 @@ import "./Navbar.css"
 function Navbar() {
   return (
     <nav>
-      <a href='#' className='logo'> sound<span className='red'></span>DZign</a>
+      <a href='#' className='logo'> sound<span className='red'>DZign</span></a>
       <ul>
         <li>
           <a href='#'>Course Details</a>
