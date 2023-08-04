@@ -10,8 +10,8 @@ function Topics() {
       <div className='Wrapper'>
         <h2>What will you learn ?</h2>
         <div className='content-container'>
-          <ul>
-            <li onMouseEnter={() => setCurrentImage(frequencies)}>What are frequencies</li>
+          <ul className='topics-list'>
+            <li onMouseEnter={() => setCurrentImage(frequencies)}>What are frequencies ?</li>
             <li onMouseEnter={() => setCurrentImage(daw)}>Using the DAW</li>
             <li onMouseEnter={() => setCurrentImage(vocalsProcessing)}>Vocals the Processing</li>
             <li onMouseEnter={() => setCurrentImage(mixing)}>Mixing</li>
