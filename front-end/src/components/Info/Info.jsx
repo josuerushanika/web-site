@@ -1,6 +1,6 @@
 import React from 'react'
 import './Info.css'
-import { studentIcon, videoIcon } from '../../assets'
+import { studentIcon, videoIcon, bgElement2 } from '../../assets'
 
 function Info() {
   return (
@@ -13,6 +13,15 @@ function Info() {
              <div className='type'>Student</div>
            </div>
         </div>
+
+        <div className='content-container'>
+           <div className='info-content'>
+             <img src={videoIcon}/>
+             <div className='amount'>26 Hrs</div>
+             <div className='type'>Video Content</div>
+           </div>
+        </div>
+        <img className='bg-element-2' src={bgElement2} />
       </div>
     </section>
   )
