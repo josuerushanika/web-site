@@ -16,4 +16,19 @@
     font-family: "Inter", sans-serif;
   }
 
-  
+  /* section */
+
+  section {
+    padding: 80px 0;
+    color: white;
+  }
+
+  section h2 {
+   font-weight: 800; 
+   font-size: 40px;
+   line-height: 48px;
+  }
+
+  .black {
+    
+  }
