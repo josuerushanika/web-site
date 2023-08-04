@@ -30,5 +30,9 @@
   }
 
   .black {
-    
+    background-color: #181E1E;
+  }
+
+  .dark-gray {
+    background: var(--dark-color);
   }
