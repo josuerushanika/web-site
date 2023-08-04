@@ -23,7 +23,7 @@ function Topics() {
           <img src={currentImage}></img>
          </div>
         </div>
-        <img src={bgElement1}></img>
+        <img src={bgElement1} className='bg-element-1'></img>
       </div>
     </section>
   )

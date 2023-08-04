@@ -14,5 +14,32 @@
     font-weight: 400;
     font-size: 20px;
     margin: 24px 0;
+    position: relative;
+}
 
+#topics .topics-list li::before {
+    content: "";
+    position: absolute;
+    background: var(--red-color);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: -24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#topics .content-container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+#topics .wrapper {
+    position: relative;
+}
+
+#topics .bg-element-1{
+    position: absolute;
+    right: 1px;  
 }
