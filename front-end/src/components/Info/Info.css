@@ -29,3 +29,28 @@
     left: 0;
     top: 0;
 }
+
+/* Smartphne version */
+
+@media (max-width: 720px) {
+    #info .content-container {
+      flex-direction: column;
+      gap: 80px;
+    }
+   
+    #info .content-container img {
+        height: 100px;
+    }
+
+    #info .info-content .amount {
+        font-size: 32px;
+    }
+
+    #info .info-content .type {
+        font-size: 24px;
+    }
+
+    #info .bg-element-2 {
+        left: 32px;
+    }
+}

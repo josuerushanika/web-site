@@ -43,3 +43,24 @@
     position: absolute;
     right: 1px;  
 }
+
+/* Tablet version */
+
+@media (max-width: 1040px) {
+    #topics .topic-image img {
+        width: 385px;
+        height: 280px;
+    }
+}
+
+/* Smartphone version */
+
+@media(max-width: 720px){
+    #topics .topic-image img {
+       display: none;
+    }
+
+    #topics .bg-element-1 {
+        right: 32px;
+    }
+}
