@@ -35,6 +35,17 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.links li {
- list-style: none;
+
+footer .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .links ul li {
+    font-family: "Alegreya", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 8px 16px;
 }
