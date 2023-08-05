@@ -1,0 +1,8 @@
+#testimonials .content-container {
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#testimonials .testimonial {
+    width: 264px;
+}
