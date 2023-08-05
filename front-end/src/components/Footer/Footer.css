@@ -1,0 +1,40 @@
+footer .content-container {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+footer .copyright {
+    font-family: "Alegreya", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color:#fff;
+}
+
+footer h3 {
+    color: var(--pink-color);
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.links li {
+ list-style: none;
+}
