@@ -1,8 +1,14 @@
 #testimonials .content-container {
-    margin-top: 50px;
+    margin-top: 50px; 
     justify-content: space-between;
 }
 
 #testimonials .testimonial {
     width: 264px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { testimonial1, testimonial2, testimonial3 } from '../../assets'
+import './Testimonials.css'
 
 function Testimonials() {
   return (
@@ -14,16 +15,16 @@ function Testimonials() {
           <div className='reviewer-details'>
             <div className='name'>Peter Adams</div>
             <div className='company-name'>Google</div>
-            <div className='review'>This is a great course. I got to learn a lot</div>
+            <div className='review'>This is a great course. I got to learn</div>
           </div>
         </div>
-
+          
         <div className='testimonial'>
           <img src={testimonial2} alt="" />
           <div className='reviewer-details'>
             <div className='name'>Peter Adams</div>
             <div className='company-name'>Google</div>
-            <div className='review'>This is a great course. I got to learn a lot</div>
+            <div className='review'>This is a great course. I got to learn</div>
           </div>
         </div>
 
@@ -33,7 +34,7 @@ function Testimonials() {
           <div className='reviewer-details'>
             <div className='name'>Peter Adams</div>
             <div className='company-name'>Google</div>
-            <div className='review'>This is a great course. I got to learn a lot</div>
+            <div className='review'>This is a great course. I got to learn </div>
           </div>
         </div>
 
