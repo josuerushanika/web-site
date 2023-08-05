@@ -61,4 +61,8 @@
       align-items: center;
       gap: 16px;
     }
+    #testimonials .testimonial .reviewer-details {
+        text-align: center;
+    }
+    
 }

@@ -50,6 +50,10 @@ footer .links ul li {
     margin: 8px 16px;
 }
 
+footer .copyright-mobile {
+    display: none;
+}
+
 
 /* Table Version */
 
@@ -73,5 +77,21 @@ footer .links ul li {
     section h2::after {
         width: 50px;
         bottom: 0;
+    }
+}
+
+/* Smartphone version  footer*/
+
+@media (max-width: 720px) {
+    footer .content-container {
+        flex-direction: column;
+    }
+
+    footer .copyright {
+        display: none;
+    }
+
+    footer .copyright-mobile {
+        display: block;
     }
 }

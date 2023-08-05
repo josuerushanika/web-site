@@ -14,15 +14,15 @@ function Footer() {
             </a>
 
             <div className='social-icons'>
-               <a href='#'>
+              <a href='#'>
                 <img src={facebookLogo} alt=''></img>
-               </a>
-               <a href='#'>
+              </a>
+              <a href='#'>
                 <img src={twitterLogo} alt=''></img>
-               </a>
-               <a href='#'>
+              </a>
+              <a href='#'>
                 <img src={instagramLogo} alt=''></img>
-               </a>
+              </a>
             </div>
 
             <div className='copyright'>
@@ -31,23 +31,28 @@ function Footer() {
           </div>
 
           <div className='links'>
-           <h3>Quick Links</h3>
-           <ul>
-            <li><a href="#">Blog</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
-           </ul>
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
           </div>
           <div className='links'>
-               <h3>Contact Us</h3>
-               <ul>
-                <li>
-                  <a href="#">contact@email.com</a>
-                </li>
-                <li>
-                  <a href="#">+243977308096</a>
-                </li>
-               </ul>
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                <a href="#">contact@email.com</a>
+              </li>
+              <li>
+                <a href="#">+243977308096</a>
+              </li>
+            </ul>
           </div>
+
+          <div className='copyright-mobile'>
+            This Website is designed by GTCoding c 2023
+          </div>
+
         </div>
       </div>
     </footer>
