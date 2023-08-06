@@ -4,3 +4,6 @@
 
  <li><a href="https://www.figma.com/file/wy22TBPVbKLedUWMG6NZjK/Responsive-Homepage?type=design&node-id=0-1&mode=design&t=X2gxbHDI4614vF2z-0">Figma LINK</a></li>
 
+git clone https://github.com/josuerushanika/web-site.git
+cd front-end
+npm run dev
