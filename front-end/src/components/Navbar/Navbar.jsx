@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Navbar.css"
 import { menuIcon, closeIcon } from '../../assets'
 
 function Navbar() {
+
+  const [isActive, setIsActive] = useState(false);
+
   return (
     <>
       <nav>
@@ -13,7 +16,7 @@ function Navbar() {
           </li>
 
           <li>
-            <a href='#infos'>About</a>
+            <a href='#info'>About</a>
           </li>
 
           <li>
@@ -25,13 +28,15 @@ function Navbar() {
           </li>
         </ul>
 
-        <div className='menu-icon'>
+        <div onClick={() => setIsActive(true)} className='menu-icon'>
           <img src={menuIcon} alt='' />
         </div>
       </nav>
 
-      <div className='mobile-menu-container'>
-        <img src={closeIcon} alt='' />
+      <div className={`mobile-menu-container ${isActive ? "active" : ""}`} >
+        <div onClick={() => setIsActive(false)} className='close-icon'>
+          <img src={closeIcon} alt='' />
+        </div>
         <ul className='menu-items'>
           <li>
             <a href='#topics'>Course Details</a>
