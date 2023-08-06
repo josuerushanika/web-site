@@ -1,33 +1,53 @@
 import React from 'react'
 import "./Navbar.css"
-import { menuIcon } from '../../assets'
+import { menuIcon, closeIcon } from '../../assets'
 
 function Navbar() {
   return (
-    <nav>
-      <a href='#' className='logo'> sound<span className='red'>DZign</span></a>
-      <ul>
-        <li>
-          <a href='#'>Course Details</a>
-        </li>
+    <>
+      <nav>
+        <a href='#' className='logo'> sound<span className='red'>DZign</span></a>
+        <ul>
+          <li>
+            <a href='#topics'>Course Details</a>
+          </li>
 
-        <li>
-          <a href='#'>About</a>
-        </li>
+          <li>
+            <a href='#infos'>About</a>
+          </li>
 
-        <li>
-          <a href='#'>Blog</a>
-        </li>
+          <li>
+            <a href='#blog'>Blog</a>
+          </li>
 
-        <li>
-          <a href='#'>Testimonials</a>
-        </li>
-      </ul>
+          <li>
+            <a href='#testimonials'>Testimonials</a>
+          </li>
+        </ul>
 
-      <div className='menu-icon'>
-        <img src={menuIcon} alt=''/>
+        <div className='menu-icon'>
+          <img src={menuIcon} alt='' />
+        </div>
+      </nav>
+
+      <div className='mobile-menu-container'>
+        <img src={closeIcon} alt='' />
+        <ul className='menu-items'>
+          <li>
+            <a href='#topics'>Course Details</a>
+          </li>
+          <li>
+            <a href='#infos'>About</a>
+          </li>
+          <li>
+            <a href='#blog'>Blog</a>
+          </li>
+          <li>
+            <a href='#testimonials'>Testimonials</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </>
   )
 }
 
