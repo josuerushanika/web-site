@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
+import { menuIcon } from '../../assets'
 
 function Navbar() {
   return (
@@ -22,6 +23,10 @@ function Navbar() {
           <a href='#'>Testimonials</a>
         </li>
       </ul>
+
+      <div className='menu-icon'>
+        <img src={menuIcon} alt=''/>
+      </div>
     </nav>
   )
 }

@@ -50,7 +50,7 @@ footer .links ul li {
     margin: 8px 16px;
 }
 
-footer .copyright-mobile {
+footer .copyright.mobile {
     display: none;
 }
 
@@ -85,13 +85,18 @@ footer .copyright-mobile {
 @media (max-width: 720px) {
     footer .content-container {
         flex-direction: column;
+        gap: 40px;
     }
 
     footer .copyright {
         display: none;
     }
 
-    footer .copyright-mobile {
+    footer .copyright.mobile {
         display: block;
+    }
+
+    footer .social-icons {
+        margin-bottom: 0;
     }
 }

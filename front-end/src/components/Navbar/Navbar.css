@@ -29,3 +29,33 @@ a.logo {
 a.logo .red {
     color: #cc3e3e;
 }
+
+.menu-icon {
+    display: none;
+}
+
+/* Tablet version */
+
+@media (max-width: 1040px) {
+    nav {
+        width: 694px;
+    }
+}
+
+/* Smart version */
+
+@media (max-width: 720px) {
+    nav ul {
+        display: none;
+    }
+    nav {
+        width: unset;
+        left: 32px;
+        right: 32px;
+        top: 16px;
+    }
+
+    nav .menu-icon {
+        display: block;
+    }
+}

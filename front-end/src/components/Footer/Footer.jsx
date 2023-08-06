@@ -49,7 +49,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className='copyright-mobile'>
+          <div className='copyright mobile'>
             This Website is designed by GTCoding c 2023
           </div>
 
