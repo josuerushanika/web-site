@@ -39,16 +39,16 @@ function Navbar() {
         </div>
         <ul className='menu-items'>
           <li>
-            <a href='#topics'>Course Details</a>
+            <a href='#topics' onClick={() => setIsActive(false)}>Course Details</a>
           </li>
           <li>
-            <a href='#infos'>About</a>
+            <a href='#info' onClick={() => setIsActive(false)}>About</a>
           </li>
           <li>
-            <a href='#blog'>Blog</a>
+            <a href='#blog' onClick={() => setIsActive(false)}>Blog</a>
           </li>
           <li>
-            <a href='#testimonials'>Testimonials</a>
+            <a href='#testimonials' onClick={() => setIsActive(false)}>Testimonials</a>
           </li>
         </ul>
       </div>

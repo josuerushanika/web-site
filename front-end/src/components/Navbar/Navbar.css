@@ -86,7 +86,7 @@ a.logo .red {
     .mobile-menu-container .close-icon {
         position: fixed;
         top: 32px;
-        right: 32px;
+        right: 60px;
     }
 
     .mobile-menu-container .menu-items li a  {
