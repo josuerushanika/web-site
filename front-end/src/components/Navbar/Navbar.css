@@ -81,4 +81,12 @@ a.logo .red {
         top: 32px;
         right: 32px;
     }
+
+    .mobile-menu-container .menu-items li a  {
+        font-weight: 800;
+        font-size: 16px;
+        padding: 18px 0;
+        display: inline-block;
+        color: #ffff;
+    }
 }

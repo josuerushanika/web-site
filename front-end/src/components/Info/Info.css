@@ -6,6 +6,7 @@
     justify-content: space-between;
     width: 100%;
     gap: 4px;
+    margin-top: 60px;
 }
 
 #info .info-content .amount {
