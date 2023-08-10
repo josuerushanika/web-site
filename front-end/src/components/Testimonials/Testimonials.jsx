@@ -18,7 +18,7 @@ function Testimonials() {
             <div className='review'>This is a great course. I got to learn</div>
           </div>
         </div>
-          
+
         <div className='testimonial'>
           <img src={testimonial2} alt="" />
           <div className='reviewer-details'>
