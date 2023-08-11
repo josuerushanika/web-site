@@ -5,9 +5,9 @@
 }
 
 #blog .post img {
-     width: 100%;
-     height: 160px;
-     object-fit: cover;
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
 }
 
 #blog .post {
@@ -77,10 +77,11 @@
 /* Smartphone version */
 
 @media (max-width: 720px) {
-       #blog .content-container {
+    #blog .content-container {
         grid-template-columns: 1fr;
-       }
-       #blog .post:nth-child(3) {
+    }
+
+    #blog .post:nth-child(3) {
         grid-column: 1/2;
     }
 }
