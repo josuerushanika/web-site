@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Topics.css"
-import { frequencies, daw, vocalsProcessing, mixing, mixingConsole, mastering,bgElement1 } from "../../assets"
+import { frequencies, daw, vocalsProcessing, mixing, mixingConsole, mastering, bgElement1 } from "../../assets"
 
 function Topics() {
   const [currentImage, setCurrentImage] = useState(frequencies)
@@ -19,9 +19,9 @@ function Topics() {
             <li onMouseEnter={() => setCurrentImage(mastering)}>Mastering</li>
           </ul>
 
-         <div className='topic-image'>
-          <img src={currentImage}></img>
-         </div>
+          <div className='topic-image'>
+            <img src={currentImage}></img>
+          </div>
         </div>
         <img src={bgElement1} className='bg-element-1'></img>
       </div>
