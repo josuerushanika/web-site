@@ -154,8 +154,8 @@ If you like this project and want to show your support, please give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank  everyone who inspired me to learn programming and Youtube Turoriel and  <li><a href="https://www.figma.com/file/wy22TBPVbKLedUWMG6NZjK/Responsive-Homepage?type=design&node-id=0-1&mode=design&t=X2gxbHDI4614vF2z-0">Figma Link</a></li>
-  </ul>. 
+I would like to thank  everyone who inspired me to learn programming and Youtube Turoriel and  Figma <a href="https://www.figma.com/file/wy22TBPVbKLedUWMG6NZjK/Responsive-Homepage?type=design&node-id=0-1&mode=design&t=X2gxbHDI4614vF2z-0">Figma Link</a>
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
