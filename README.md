@@ -52,8 +52,6 @@ This project was built using React  and Vite.
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
     <li><a href="https://vitejs.dev/guide/">Vite</a></li>
-      <li><a href="https://www.figma.com/file/wy22TBPVbKLedUWMG6NZjK/Responsive-Homepage?type=design&node-id=0-1&mode=design&t=X2gxbHDI4614vF2z-0">Figma Link</a></li>
-  </ul>
 </details>
 
 <!-- Features -->
@@ -156,7 +154,8 @@ If you like this project and want to show your support, please give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank  everyone who inspired me to learn programming and Youtube Turoriel. 
+I would like to thank  everyone who inspired me to learn programming and Youtube Turoriel and  <li><a href="https://www.figma.com/file/wy22TBPVbKLedUWMG6NZjK/Responsive-Homepage?type=design&node-id=0-1&mode=design&t=X2gxbHDI4614vF2z-0">Figma Link</a></li>
+  </ul>. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
