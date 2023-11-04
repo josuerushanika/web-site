@@ -66,7 +66,7 @@ This project was built using React  and Vite.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[COMING SOON](##)
+[live-demo](https://websiteforom.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
