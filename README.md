@@ -52,6 +52,7 @@ This project was built using React  and Vite.
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
     <li><a href="https://vitejs.dev/guide/">Vite</a></li>
+      <li><a href="https://www.figma.com/file/wy22TBPVbKLedUWMG6NZjK/Responsive-Homepage?type=design&node-id=0-1&mode=design&t=X2gxbHDI4614vF2z-0">Figma Link</a></li>
   </ul>
 </details>
 
