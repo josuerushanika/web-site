@@ -1,7 +1,6 @@
 import React from 'react'
 import { Header,Info, Topics, Blog, Testimonials, Footer } from './components'
 
-
 function App() {
   return (
     <> 
